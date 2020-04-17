@@ -1,0 +1,70 @@
+.app{
+  width: 700px;
+  height: 400px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%) !important;
+  position: absolute;
+}
+
+.title{
+  color: blue;
+  font-size: 25px;
+}
+
+.box{
+  border-color: rgb(175, 159, 189);
+  border-style: ridge;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  height: 200px;
+}
+
+.room{
+  font-size: 1.5em;
+  color: blue;
+}
+
+.buttons{
+  float: right; 
+}
+
+.btn{
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.btn:disabled{
+  background-color: gray;
+  cursor: default;
+}
+.btn-increase{
+  background-color: palevioletred;
+}
+.btn-decrease{
+  background-color: blue;
+}
+#minus{
+  color: white;
+}
+
+#plus{
+  color: white;
+}
+
+.adult{
+  font-size: 1.5em;
+  color: blue;
+}
+
+.child{
+  font-size: 1.5em;
+  color: blue;
+}
